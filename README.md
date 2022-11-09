@@ -1,4 +1,4 @@
-# Kyero candidate refactoring excercise
+# Kyero candidate refactoring exercise
 
 ## Goal
 
@@ -18,7 +18,7 @@ Feel free to add any gems you like. Rails is installed. We'd like you to make us
 
 Unit tests are a requirement. Rspec is installed
 
-This excercise is expected to take no more than a couple of hours. Please let us know if it took more, we'll adjust it for the next time
+This exercise is expected to take no more than a couple of hours. Please let us know if it took more, we'll adjust it for the next time
 
 ## Online sales application
 
@@ -40,7 +40,7 @@ The application is a basic online sales manager, that calls an external service 
 
 ## Setup
 
-To setup this excercise you can `cd` into this directory and run `bundle install`.
+To setup this exercise you can `cd` into this directory and run `bundle install`.
 Then, in order to have some sample data to work on, you can run `rake db:create && rake db:migrate && rake db:seed`.
 
 In order to run the specs, you can simply run `bundle exec rspec`
