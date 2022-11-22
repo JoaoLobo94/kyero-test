@@ -1,7 +1,4 @@
 require "rails_helper"
-require "product_carrier"
-require "invoice_sender"
-require "payment_reminder"
 
 RSpec.describe ManageOrdersJob, type: :job do
   let!(:order1) { FactoryBot.create(:order, :paid, :shipped, :delivered) }
