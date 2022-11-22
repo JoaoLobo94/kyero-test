@@ -1,4 +1,3 @@
-require "invoice_sender"
 
 class Customer < ApplicationRecord
   has_many :orders

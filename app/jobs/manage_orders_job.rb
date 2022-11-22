@@ -1,7 +1,3 @@
-require "product_carrier"
-require "invoice_sender"
-require "payment_reminder"
-
 class ManageOrdersJob < ApplicationJob
   queue_as :default
 

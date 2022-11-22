@@ -1,5 +1,3 @@
-require "invoice_sender"
-require "payment_reminder"
 
 class ReportsJob < ApplicationJob
   queue_as :default
