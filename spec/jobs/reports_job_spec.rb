@@ -7,8 +7,8 @@ RSpec.describe ReportsJob, type: :job do
 
   describe "#perform" do
     it "sends the report" do
-      expect(Report).to receive(:send_to_line_manager)
-      described_class.new.perform
+      expect_any_instance_of(Report).to receive(:send_to_line_manager)
+      described_class.perform_now
     end
   end
 end
