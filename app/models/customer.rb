@@ -1,8 +1,4 @@
-
 class Customer < ApplicationRecord
   has_many :orders
-
-  def send_invoice(order)
-    InvoiceSender.call(order)
-  end
+  scope :with_active_orders, -> { joins(:orders).where(orders: { active: true }).distinct }
 end
