@@ -44,3 +44,4 @@ To setup this exercise you can `cd` into this directory and run `bundle install`
 Then, in order to have some sample data to work on, you can run `rake db:create && rake db:migrate && rake db:seed`.
 
 In order to run the specs, you can simply run `bundle exec rspec`
+# kyero-test
